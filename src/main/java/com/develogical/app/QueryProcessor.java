@@ -8,7 +8,7 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
         else if (query.toLowerCase().contains("jordan")) {
-            return "Michael Jordan, Basketball player";
+            return "Michael Jordan, basketball player";
         }
         return "";
     }
