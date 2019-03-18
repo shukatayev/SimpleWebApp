@@ -26,7 +26,7 @@ public class QueryProcessorTest {
 
     @Test
     public void knowsAboutJordan() throws Exception {
-        assertThat(queryProcessor.process("Jordan"), containsString("basketball"));
+        assertThat(queryProcessor.process("Jordan"), containsString("bsketball"));
     }
 
     @Test
